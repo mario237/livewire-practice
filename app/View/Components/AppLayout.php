@@ -26,6 +26,6 @@ class AppLayout extends Component
      */
     public function render(): View|Factory|Application
     {
-        return view('layout.app');
+        return view('layouts.app');
     }
 }
